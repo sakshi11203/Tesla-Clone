@@ -1,0 +1,258 @@
+html {
+  font-size:62.5% ;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.background-image1 {
+  
+    /* background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 95rem; */
+    width: 100vw; min-height: 100vh;
+    background-position: center;
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social");
+    background-size: cover;
+    
+
+}
+.modelname {
+    position: absolute;
+    top: 10rem;
+    font-size: 6rem;
+    left: 78rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.para {
+    position: absolute;
+    top: 13rem;
+    font-size: 3.5rem;
+    left: 63rem;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+
+
+
+}
+.custom-order {
+    
+    display: inline-block;
+    padding: 2.4rem 3.2rem;
+    border: 0;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    background-color:black;
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: absolute;
+    top: 80rem;
+    left: 60rem;
+    width: 30rem;
+    height: 7rem;
+  }
+ 
+  .custom-order:hover {
+    background-color: rgba(255,255,255,0.2);
+  }
+  .existing-inventary {
+    display: inline-block;
+    padding: 2.4rem 3.2rem;
+    border: 0;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    background-color:black;
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: absolute;
+    top: 80rem;
+    left: 93rem;
+    width: 30rem;
+    height: 7rem;
+    
+    /* color:black;
+  margin: 4rem auto;
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  width: 100%;
+  border-radius: 1.5rem;
+  padding: 3.2rem;
+  backdrop-filter: blur(1rem);
+  position: absolute;
+    top: 76rem;
+    /* left: 650px; */
+    /* width: 30rem;
+    height: 7rem;
+    left: 96rem; */ 
+
+  }
+  .existing-inventary:hover {
+    background-color: rgba(255,255,255,0.2);
+
+  }
+  .background-image2 {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 95rem;
+background-image: url('https://media.wired.com/photos/593231972a990b06268a9177/master/pass/teslax-gallery6.jpg');
+width: 100vw; min-height: 100vh;
+    background-position: center;
+  }
+  .button {
+      /* padding: 0;
+      margin: ; */
+      display: flex;
+      
+  }
+  .nav-buttons {
+left: 60rem;
+      display: flex;
+      gap: 3rem;
+      position: absolute;
+      top: 3rem;
+      text-align: center;
+  }
+  .btn1 {
+    /* background-color: transparent;
+    font-family: 'Nunito Sans', sans-serif;
+    color: black; */
+    background-color: transparent; /* Green */
+  border: none;
+  color: black;
+  backdrop-filter: blur(8rem);
+
+  
+  padding: 1.5rem 3.2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+
+
+  }
+  
+  .btn1:hover {
+    background-color: rgba(255,255,255,0.2)
+  }
+  .tesla {
+      position: absolute;
+      height: 12rem;
+      /* bottom: 2px; */
+  }
+/* @media(max-width:998px){
+  html {
+    font-size:55%;
+
+  }
+} */
+@media(max-width:768px){
+  html {
+    font-size:45%;
+
+  }
+}
+@media(max-width:998px){
+  html {
+    font-size:45%;
+
+  }
+}
+@media(max-width:1205px){
+  html {
+    font-size:45%;
+
+  }
+}
+@media(max-width:935px){
+  html {
+    font-size:30%;
+
+  }
+}
+@media(max-width:616px){
+  html {
+    font-size:25%;
+
+  }
+}
+@media(max-width:1241px){
+  header {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social");
+width: 30rem;
+  }
+    
+   @media(max-width: 536px){
+html {
+  font-size: 18%;
+}
+   }
+   @media(max-width: 403px){
+    html {
+      font-size: 12%;
+    }
+       }
+       @media(max-width: 270px){
+        html {
+          font-size: 8%;
+        }
+           }
+}
+/* .images-all{
+  display: grid;
+  grid-template-columns: 100% 100%; */
+
+.image-3 {
+  display: grid;
+  grid-template-rows: 100% 100%;
+
+
+}
+.background-image3 {
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 95rem;
+  background-image: url('https://wallpaperaccess.com/full/2257164.jpg');
+  width: 100vw; min-height: 100vh;
+    background-position: center;
+}
+.background-image4 {
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 95rem;
+  background-image: url('https://www.hdcarwallpapers.com/walls/2018_tesla_model_3_4k-HD.jpg');
+  width: 100vw; min-height: 100vh;
+    background-position: center;
+}
+.errormessage {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   position: absolute; 
+/* bottom: 20rem;
+ */
+bottom: 50rem;
+left: 40rem;
+/* font-size: xx-large; 
+ */
+ font-size: 4rem;
+background-color: cadetblue;
+}
+.Mode {
+  width: 100vw; min-height: 100vh;
+    background-position: center;
+}
